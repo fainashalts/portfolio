@@ -1,0 +1,127 @@
+<head>
+  <title>fainashalts</title>
+  <meta charset="utf-8">
+  <meta property="og:title" content="Faina Shalts" />
+  <meta property="og:url" content="http://www.fainashalts.com" />
+  <meta property="og:image" content="http://www.fainashalts.com/profilepic.jpg" />
+
+</head>
+
+<body>
+  
+  <div class="container main">
+    <div class="row title clearfix">
+      <div class="col-sm-6 col-lg-3 col-md-offset-3">
+        <img id="profile-pic" src="/profilepic.jpg"/>
+        <h1><strong>Faina Shalts</strong></h1>
+      </div>
+    </div>
+    <div id="info" class="col-sm-6 col-lg-6 col-md-offset-6">
+      <p>
+        <a href="http://www.linkedin.com/in/fainashalts" target="_blank"><i class="fa fa-linkedin-square fa-3x fa-pulse fa-spin-custom"></i></a>
+        <a href="https://twitter.com/fainashalts" target="_blank"><i class="fa fa-twitter-square fa-3x fa-pulse fa-spin-custom"></i></a>
+        <a href="https://github.com/fainashalts" target="_blank"><i class="fa fa-github-square fa-3x fa-pulse fa-spin-custom"></i></a>
+        <a href="mailto:fainashalts@gmail.com"><i class="fa fa-envelope-square fa-3x fa-pulse fa-spin-custom"></i></a>
+      </p>
+
+      <p><strong>Full Stack Web Developer.  </strong>  Driven professional with a love for logic, analysis, and database design. Eager to apply research and reasoning skills developed over years of legal
+      experience to a career in programming. Focus on sustainable web application architecture using Ruby on Rails, Javascript, jQuery, and responsive HTML/CSS. Please see recent projects below! </p>
+    </div>
+  </div>
+
+  <div class="container-fluid move">
+    <div class="row">
+      <div class="col-sm-6 col-lg-3 col-md-offset-3  portfolio">
+        <div class="panel panel-success">
+          <div class="panel-body">  
+            <img class="img-responsive img-rounded img-thumbnail" src="/endlessLA.png">
+            <p>Social platform for finding and saving interesting activities in the Los Angeles area.</p>
+            <button class="btn custom btn-custom description-plnla">More</button>
+              <p class="description-plnla initiallyHidden"> Users can look at activity descriptions, comment on activities, and add activities to their to-do list. Users can also view other users' activity to-do lists for inspiration.</p>
+            <button class="btn custom btn-custom" id="PLNLA">Technical Aspects</button>
+            <ul class="initiallyHidden" id="plnla">
+              <li>Ruby/Ruby on Rails</li>
+              <li>MongoDB(noSQL) database</li>
+              <li>Authentication by hand</li>
+              <li>Bootstrap/SASS for responsive design</li>
+              <li>Carrierwave Gem and Amazon Web Services for image uploads</li>
+              <li>Deployed on Heroku</li>
+            </ul>
+            <button class="btn custom btn-custom"><a href="https://plnla.herokuapp.com" target="_blank">View</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 portfolio">
+        <div class="panel panel-success">
+          <div class="panel-body">
+            <img class="img-responsive img-rounded img-thumbnail" src="/POC.png">
+            <p>Educational website discovery application geared toward individuals learning to program.</p>
+            <button class="btn custom btn-custom description-poc">More</button>
+            <p class="description-poc initiallyHidden"> Essentially a "reddit for programmers." Users can peruse various programming topics, view relevant links, upvote them, and add their own links as well as comment on existing links. Users can also view links they have upvoted on their profile page.</p>
+            <button class="btn custom btn-custom" id="POC">Technical Aspects</button>
+            <ul class="initiallyHidden" id="poc">
+              <li>Ruby/Ruby on Rails</li>
+              <li>PostgreSQL database with Active Record</li>
+              <li>Bootstrap/SASS for responsive design</li>
+              <li>Link Thumbnailer Gem to upload link information</li>
+              <li>Acts_As_Votable gem to allow for upvotes and linking of upvoted links to users</li>
+              <li>Devise gem for user authentication</li>
+              <li>JQuery</li>
+              <li>Serves API for topics, subtopics, links, and users</li>
+              <li>Testing with RSpec</li>
+              <li>Deployed on Heroku</li>
+            </ul>
+            <button class="btn custom btn-custom"><a href="https://partyoncode.herokuapp.com/" target="_blank">View</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 portfolio">
+        <div class="panel panel-success">
+            <div class="panel-body">
+              <img class="img-responsive img-rounded img-thumbnail" src="/carpoolcollectivesmaller.png">
+              <p>Ridesharing coordination application to help users find others who want to commute together to and from the same places at the same time. </p>
+              <button class="btn custom btn-custom description-cc">More</button>
+              <p class="description-cc initiallyHidden">Users can search for existing carpools, within a five-mile radius of their searched origin and destination addresses. Users can then join a carpool to be added to that carpool's coordination page. Users may also create their own carpool group if they are dissatisfied with the results of their search.</p>
+              <button class="btn custom btn-custom" id="CC">Technical Aspects</button>
+              <ul class="initiallyHidden" id="cc">
+                <li>AngularJS as a front-end framework, providing client-side interface and consuming API from the back-end</li>
+                <li>Ruby on Rails to provide backend support through a users and carpools API</li>
+                <li>PostgreSQL database with Active Record</li>
+                <li>Bootstrap/SASS for responsive design</li>
+                <li>Geocoder gem to geocode addresses provided by users into latitude and longitude, as well as to provide the ability to query backend API based on locations near user search terms</li>
+              </ul>
+              <button class="btn custom btn-custom"><a href="https://carpoolcollective.herokuapp.com/" target="_blank">View</a></button>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 portfolio">
+        <div class="panel panel-success">
+            <div class="panel-body">
+              <img class="img-responsive img-rounded img-thumbnail" src="/blog.png">
+              <p>Briefs to Bits blog </p>
+              <button class="btn custom btn-custom description-blog">More</button>
+              <p class="description-blog initiallyHidden">A blog about my experience learning web development and the intersections between legal innovation and technology.</p>
+              <button class="btn custom btn-custom" id="blog">Technical Aspects</button>
+              <ul class="initiallyHidden" id="blog">
+                <li>Deployed on Digital Ocean</li>
+                <li>Ghost blogging framework using markdown for posts</li>
+              </ul>
+              <button class="btn custom btn-custom"><a href="http://briefstobits.com" target="_blank">View</a></button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- <h1>Welcome to Meteor!</h1>
+
+  {{> hello}} -->
+
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
